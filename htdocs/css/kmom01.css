@@ -14,3 +14,76 @@
 .rm-navbar-max {
     display: none;
 }
+
+
+html {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+.wrap-all {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 1em;
+    min-height: 60em;
+}
+
+
+.site-logo {
+    display: none;
+}
+
+
+.site-logo-text a {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+.region-flash img {
+    width: 100%;
+}
+
+
+.my-navbar {
+    list-style-type: none;
+    display: block ruby;
+}
+
+
+.my-navbar li a {
+    text-decoration: none;
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+.figure img {
+    float: right;
+    width: 35%;
+    padding-left: 2em;
+}
+
+.block .figure a img {
+    width: 5em;
+    float: left;
+    padding: none;
+}
+
+.outer-wrap {
+    clear: both;
+    margin-top: 5em;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    text-align: center;
+}

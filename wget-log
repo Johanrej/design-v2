@@ -1,0 +1,11 @@
+--2019-11-07 15:33:54--  https://www.google.com/url?sa=i
+Slår upp www.google.com (www.google.com)... 216.58.211.4, 2a00:1450:400f:80c::2004
+Ansluter till www.google.com (www.google.com)|216.58.211.4|:443... ansluten.
+HTTP-begäran skickad, väntar på svar... 200 OK
+Längd: ospecificerat [text/html]
+Sparar till: "url@sa=i"
+
+url@sa=i                                             [<=>                                                                                                        ]       0  --.-KB/s               url@sa=i                                             [ <=>                                                                                                       ]   1,39K  --.-KB/s    om 0s      
+
+2019-11-07 15:33:55 (5,24 MB/s) - "url@sa=i" sparades [1422]
+

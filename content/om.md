@@ -21,8 +21,7 @@ Om
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
 
-Skriv några kloka ord om kursen?
+Det här är en kurs i Teknisk webbdesign och användbarhet. Den ska handla dels om designaspekten, dvs vad som gör en sida snygg, användbar och allmänt tilltalande att använda. Dels ska den handla om hur man skapar detta från ett tekniskt perspektiv.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+  
+[FIGURE src=image/beautifulwebdesign.jpg?w=300 caption="En fin bild på vår kursbok."]
