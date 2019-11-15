@@ -1,0 +1,120 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.inner-wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+// /* Hide submenu, leave this to kmom02 */
+// .rm-desktop ul {
+//     display: none;
+// }
+//
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    display: none;
+}
+
+/* .wrap-all {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+    padding: 1em;
+    min-height: 60em;
+} */
+
+
+.site-logo {
+    display: none;
+}
+
+
+.site-logo-text a {
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+.figure img {
+    float: right;
+    width: 35%;
+    padding-left: 2em;
+}
+
+.block .figure a img {
+    width: 5em;
+    float: left;
+    padding: none;
+}
+
+.outer-wrap {
+    clear: both;
+}
+
+/**
+* Main and sidebars layout
+*/
+.inner-wrap-main {
+    overflow: auto;
+}
+
+
+.region-main,
+.region-sidebar-left,
+.region-sidebar-right {
+    //background-color: pink;
+    //overflow: auto;
+}
+
+
+.region-main {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+    overflow: auto;
+
+    &.has-sidebar {
+    margin-left: 0;
+    }
+
+    &.has-sidebar-left.has-sidebar-right {
+        width: 60%;
+    }
+}
+
+.region-sidebar-left,
+.region-sidebar-right {
+    width: 30%;
+    float: left;
+}
+
+.region-sidebar-left.has-sidebar-right,
+.region-sidebar-right.has-sidebar-left {
+    width: 20%;
+    float: left;
+}
+
+// .region-main {
+//     width: 70%;
+//     float: left;
+// }
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    text-align: center;
+}

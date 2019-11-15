@@ -14,7 +14,7 @@ views:
         template: anax/v2/block/default
         sort: 2
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/byline
 ---
@@ -23,9 +23,9 @@ Min me-sida i kursen design
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/skaggjohan.jpg?w=500" class="right" caption="Bild på Johan"]
+[FIGURE src="image/skaggjohan.jpg?w=500" class="right"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Jag underhåller denna sidan under hela kursen och uppdaterar den efter hand.
 
 Så, en presentation är en bra början.
 
