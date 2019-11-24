@@ -5386,7 +5386,6 @@ hr::after {
 }
 .inner-wrap-main {
   box-sizing: border-box;
-  padding: 1em;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5548,7 +5547,6 @@ ul {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   box-sizing: border-box;
-  padding: 0 0.5em;
 }
 .site-footer {
   text-align: center;
