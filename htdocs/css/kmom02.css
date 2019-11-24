@@ -4846,11 +4846,11 @@ a.rm-button.rm-clicked .rm-button-face-2 {
   text-decoration: underline;
 }
 .rm-desktop li a {
-  color: #fff;
+  color: inherit;
   background-color: inherit;
 }
 .rm-desktop li a:hover {
-  color: red;
+  color: inherit;
   background-color: inherit;
 }
 .rm-desktop li:hover > ul {
@@ -5144,7 +5144,7 @@ img {
     float: none;
   }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 560px) {
   .rm-desktop {
     display: none;
   }

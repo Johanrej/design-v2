@@ -1,14 +1,6 @@
 ---
 title: "Min fina titel"
 views:
-    flash:
-        region: flash
-        template: anax/v2/image/default
-        data:
-            #src: "image/theme/tree.jpg?width=1100&height=150&crop-to-fit&area=0,0,30,0"
-            src: "image/log-cutter.png?width=1100&height=180&crop-to-fit"
-
-
     byline:
         region: main
         template: anax/v2/block/default
@@ -17,13 +9,20 @@ views:
             meta:
                 type: single
                 route: block/byline
+    testblock:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/testblock
 ---
 Min me-sida i kursen design
 =========================
 
 Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/skaggjohan.jpg?w=500" class="right"]
+[FIGURE src="image/skaggjohan.jpg" class="right"]
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Jag underhåller denna sidan under hela kursen och uppdaterar den efter hand.
 
