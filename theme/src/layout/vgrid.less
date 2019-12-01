@@ -5,7 +5,12 @@
 /**
  * Variables
  */
-
+@desktopnavbarbackground: #00427A;
+@desktopnavbartext: #fff;
+@innerwrapbackground: #fff;
+@footerbackground: #F3F3F3;
+@footertextcolor: #333;
+@desktopnavbarsubmenu: #F3F3F3;
 
 /**
  * General layout
@@ -32,7 +37,8 @@
 
 .inner-wrap-main {
     box-sizing: border-box;
-    // padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 
@@ -80,9 +86,9 @@
 
 .region-header-col-2 {
     #desinax-vgrid.column(24);
-    background-color: #00427A;
-    color: #fff;
-    text-align: center;
+    background-color: @desktopnavbarbackground;
+    color: @desktopnavbartext;
+    text-align: auto;
     font-size: 20px;
     //width: 60%;
     //float: left;
@@ -92,7 +98,14 @@
 //    color: #fff;
 // }
 
+.rm-desktop li a {
+    color: inherit;
+    background-color: @desktopnavbarsubmenu;
 
+    &:hover {
+    background-color: @desktopnavbarsubmenu;
+    }
+}
 
  .site-logo {
      display: none;
@@ -166,7 +179,7 @@ ul {
  * Main and sidebars layout
  */
 .inner-wrap-main {
-    background-color: #fff;
+    background-color: @innerwrapbackground;
     // overflow: auto;
 }
 
@@ -219,7 +232,9 @@ ul {
 
 
  .region-footer {
-     background-color: green;
+     background-color: @footerbackground;
+     color: @footertextcolor;
+     overflow: auto;
  }
 
  .footer-column {

@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 
 
@@ -90,9 +90,50 @@
 /**
 * My own settings, not currently in their own module.
 */
-@bgColorHtml: #F8F6F0;
-@bgColorBody: #F3F3F3;
+@bgColorHtml: #111111;
+@bgColorBody: #1D1D1D;
+@colorBody: #fff;
+@innerwrapbackground: #1D1D1D;
 
+.inner-wrap-header {
+    background-color: #111111;
+}
+
+a {
+    color: #F8F8FF;
+    &:hover {
+        color: #F8F8FF;
+    }
+}
+
+@desktopnavbarbackground: #111111;
+@desktopnavbartext: #F8F8FF;
+@desktopnavbarsubmenu: #111111;
+
+@footerbackground: #111111;
+@footertextcolor: #F8F8FF;
+
+.outer-wrap-footer {
+    background-color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #EE7023;
+}
+
+.site-logo-text a {
+    font-size: 3em;
+    color: #EE7023;
+}
+
+.region-flash {
+    display: none;
+}
 
 //@fontFamilyBody:     "serif"; //"sans-serif";
 
@@ -101,4 +142,9 @@
 @magicNumber:  22px;  // 22px
 @fontSizeBody: 16px;
 
+@fontFamilyHeadings: "serif";
 @fontFamilyBody: 'Roboto', sans-serif;
+
+.code {
+    background-color: none;
+}

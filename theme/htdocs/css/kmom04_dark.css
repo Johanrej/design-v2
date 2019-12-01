@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
   * Import mixins.
@@ -5018,7 +5018,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #F8F6F0;
+  background-color: #111111;
 }
 * {
   font-family: 'Roboto', sans-serif;
@@ -5026,8 +5026,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #F3F3F3;
+  color: #fff;
+  background-color: #1D1D1D;
   font: 16px/1.375 'Roboto', sans-serif;
 }
 img {
@@ -5435,17 +5435,17 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #00427A;
-  color: #fff;
+  background-color: #111111;
+  color: #F8F8FF;
   text-align: auto;
   font-size: 20px;
 }
 .rm-desktop li a {
   color: inherit;
-  background-color: #F3F3F3;
+  background-color: #111111;
 }
 .rm-desktop li a:hover {
-  background-color: #F3F3F3;
+  background-color: #111111;
 }
 .site-logo {
   display: none;
@@ -5503,7 +5503,7 @@ ul {
  * Main and sidebars layout
  */
 .inner-wrap-main {
-  background-color: #fff;
+  background-color: #1D1D1D;
 }
 .region-main {
   display: inline;
@@ -5550,8 +5550,8 @@ ul {
   margin-right: 0.52083333%;
 }
 .region-footer {
-  background-color: #F3F3F3;
-  color: #333;
+  background-color: #111111;
+  color: #F8F8FF;
   overflow: auto;
 }
 .footer-column {
@@ -5703,3 +5703,33 @@ ul {
 /**
 * My own settings, not currently in their own module.
 */
+.inner-wrap-header {
+  background-color: #111111;
+}
+a {
+  color: #F8F8FF;
+}
+a:hover {
+  color: #F8F8FF;
+}
+.outer-wrap-footer {
+  background-color: #111111;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #EE7023;
+}
+.site-logo-text a {
+  font-size: 3em;
+  color: #EE7023;
+}
+.region-flash {
+  display: none;
+}
+.code {
+  background-color: none;
+}

@@ -5020,12 +5020,15 @@ html {
   overflow-y: scroll;
   background-color: #F8F6F0;
 }
+* {
+  font-family: 'Roboto', sans-serif;
+}
 body {
   margin: 0;
   padding: 0;
   color: #333;
   background-color: #F3F3F3;
-  font: 16px/1.375 "sans-serif";
+  font: 16px/1.375 'Roboto', sans-serif;
 }
 img {
   max-width: 100%;
@@ -5386,6 +5389,8 @@ hr::after {
 }
 .inner-wrap-main {
   box-sizing: border-box;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5432,8 +5437,15 @@ hr::after {
   margin-right: 0.52083333%;
   background-color: #00427A;
   color: #fff;
-  text-align: center;
+  text-align: auto;
   font-size: 20px;
+}
+.rm-desktop li a {
+  color: inherit;
+  background-color: #F3F3F3;
+}
+.rm-desktop li a:hover {
+  background-color: #F3F3F3;
 }
 .site-logo {
   display: none;
@@ -5538,7 +5550,9 @@ ul {
   margin-right: 0.52083333%;
 }
 .region-footer {
-  background-color: green;
+  background-color: #F3F3F3;
+  color: #333;
+  overflow: auto;
 }
 .footer-column {
   display: inline;

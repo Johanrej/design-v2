@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
   * Import mixins.
@@ -5026,8 +5026,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #F3F3F3;
+  color: #000;
+  background-color: #F8F6F0;
   font: 16px/1.375 'Roboto', sans-serif;
 }
 img {
@@ -5435,17 +5435,17 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #00427A;
-  color: #fff;
+  background-color: #F8F6F0;
+  color: #000;
   text-align: auto;
   font-size: 20px;
 }
 .rm-desktop li a {
   color: inherit;
-  background-color: #F3F3F3;
+  background-color: #F8F6F0;
 }
 .rm-desktop li a:hover {
-  background-color: #F3F3F3;
+  background-color: #F8F6F0;
 }
 .site-logo {
   display: none;
@@ -5503,7 +5503,7 @@ ul {
  * Main and sidebars layout
  */
 .inner-wrap-main {
-  background-color: #fff;
+  background-color: #F8F6F0;
 }
 .region-main {
   display: inline;
@@ -5550,8 +5550,8 @@ ul {
   margin-right: 0.52083333%;
 }
 .region-footer {
-  background-color: #F3F3F3;
-  color: #333;
+  background-color: #F8F6F0;
+  color: #000;
   overflow: auto;
 }
 .footer-column {
@@ -5703,3 +5703,6 @@ ul {
 /**
 * My own settings, not currently in their own module.
 */
+.region-flash {
+  display: none;
+}

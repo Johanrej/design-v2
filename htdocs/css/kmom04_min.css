@@ -5389,8 +5389,6 @@ hr::after {
 }
 .inner-wrap-main {
   box-sizing: border-box;
-  padding-left: 1em;
-  padding-right: 1em;
 }
 .vgrid .inner-wrap {
   background: url("../img/grid_24x30x10-nomargin.png") repeat-y scroll center center;
@@ -5437,15 +5435,8 @@ hr::after {
   margin-right: 0.52083333%;
   background-color: #00427A;
   color: #fff;
-  text-align: auto;
+  text-align: center;
   font-size: 20px;
-}
-.rm-desktop li a {
-  color: inherit;
-  background-color: #F3F3F3;
-}
-.rm-desktop li a:hover {
-  background-color: #F3F3F3;
 }
 .site-logo {
   display: none;

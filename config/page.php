@@ -20,7 +20,9 @@ return [
             "stylesheets" => [
                 // Change here to set another default stylesheet
                 //"css/dbwebb-se.min.css",
-                "css/kmom03.css",
+                "https://fonts.googleapis.com/css?family=Roboto&display=swap",
+                "https://fonts.googleapis.com/css?family=Indie+Flower&display=swap",
+                "css/kmom04_dark.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",
