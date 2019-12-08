@@ -1,0 +1,200 @@
+/*!
+ * Stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+
+
+ /**
+  * Import mixins.
+  */
+ @import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base.less";
+@import "base/base_kmom03.less";
+
+
+/**
+ * Import the vertical grid.
+ */
+ @import "@desinax/vertical-grid/less/grid.less";
+ @import "layout/vgrid.less";
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    @maxContentWidth: 960px;
+    #desinax-figure.figure(@maxContentWidth);
+
+    &.left,
+    &.right {
+        @media screen {
+            @media (max-width: round(@maxContentWidth * 2 / 3)) {
+                &.w50 {
+                    margin-left: 0;
+                    margin-right: 0;
+                    float: none;
+                    img {
+                        width: @maxContentWidth * 2 / 3;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//@maxContentWidth: 300px;
+
+
+/**
+* My own settings, not currently in their own module.
+*/
+@bgColorHtml: #111111;
+@bgColorBody: #1D1D1D;
+@colorBody: #fff;
+@innerwrapbackground: #1D1D1D;
+
+.inner-wrap-header {
+    background-color: #111111;
+}
+
+a {
+    color: #F8F8FF;
+    &:hover {
+        color: #F8F8FF;
+    }
+}
+
+@desktopnavbarbackground: #111111;
+@desktopnavbartext: #F8F8FF;
+@desktopnavbarsubmenu: #111111;
+
+@footerbackground: #111111;
+@footertextcolor: #F8F8FF;
+
+.outer-wrap-footer {
+    background-color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #EE7023;
+}
+
+.site-logo-text a {
+    font-size: 3em;
+    color: #EE7023;
+}
+
+.region-flash {
+    display: none;
+}
+
+//@fontFamilyBody:     "serif"; //"sans-serif";
+
+
+// Magic number and base fontsize
+@magicNumber:  22px;  // 22px
+@fontSizeBody: 16px;
+
+@fontFamilyHeadings: "serif";
+@fontFamilyBody: 'Roboto', sans-serif;
+
+code {
+    background-color: grey;
+}

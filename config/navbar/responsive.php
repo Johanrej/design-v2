@@ -90,6 +90,35 @@ return [
                         "url" => "rapport/fargschema",
                         "title" => "Rapport för färgval.",
                     ],
+                    [
+                        "text" => "Laddningstid",
+                        "url" => "rapport/laddningstid",
+                        "title" => "Rapport för laddningstid.",
+                    ],
+                ],
+            ],
+        ],
+        [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Blogg",
+            "submenu" => [
+                "items" => [
+                    [
+                        "text" => "Mitt tredje inlägg.",
+                        "url" => "blogg/mitt-tredje-inlagg",
+                        "title" => "Blogg nummer tre.",
+                    ],
+                    [
+                        "text" => "Mitt andra inlägg.",
+                        "url" => "blogg/mitt-andra-inlagg",
+                        "title" => "Blogg nummer två.",
+                    ],
+                    [
+                        "text" => "Mitt första inlägg.",
+                        "url" => "blogg/mitt-forsta-inlagg",
+                        "title" => "Blogg nummer ett.",
+                    ],
                 ],
             ],
         ],
