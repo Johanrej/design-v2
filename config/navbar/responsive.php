@@ -105,6 +105,11 @@ return [
                         "url" => "rapport/designelement",
                         "title" => "Prova designelement.",
                     ],
+                    [
+                        "text" => "Designprinciper",
+                        "url" => "rapport/designprinciper",
+                        "title" => "Designprinciper",
+                    ],
                 ],
             ],
         ],

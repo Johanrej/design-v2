@@ -1,0 +1,203 @@
+/*!
+ * Stylesheet for design kmom04.
+ *
+ * This stylesheet is for the design course and kmom04 where we use LESS.
+ */
+
+
+ /**
+  * Import mixins.
+  */
+ @import "mixin/clearfix.less";
+
+.clearfix() {
+    #design-mixin.clearfix();
+}
+
+ /**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+
+ /**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+//@import "module/kmom01.less";
+@import "module/stylechooser.less";  // Just an example module
+
+
+/**
+ * A responsive menu.
+ */
+@import "@desinax/responsive-menu/less/responsive-menu.less";
+//@import "@desinax/responsive-menu/less/media-queries.less";
+
+
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
+
+
+
+// Show the grid
+.hgrid .inner-wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+//@import "base/base.less";
+@import "base/base_kmom06_designpr.less";
+
+
+/**
+ * Import the vertical grid.
+ */
+ @import "@desinax/vertical-grid/less/grid.less";
+ @import "layout/vgrid_kmom06.less";
+
+// Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+// @import "layout/layout.less";
+// @import "layout/layout_kmom02.less";
+@import "layout/responsive.less";
+@import "layout/regions.less";     // To add style for ?regions
+
+
+/**
+* My own settings, not currently in their own module.
+*/
+@bgColorHtml: #111111;
+@bgColorBody: #1D1D1D;
+@colorBody: #fff;
+@innerwrapbackground: none;
+
+.inner-wrap-header {
+    background-color: #111111;
+}
+
+a {
+    color: #F8F8FF;
+    &:hover {
+        color: #2d4ba4;
+    }
+}
+
+.my-navbar a {
+    -moz-border-radius: 15px;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-border-radius: 15px;
+    -webkit-transition: all 0.5s ease;
+    background-color: #444040;
+    background-image: -moz-linear-gradient(90deg, #2d4ba4, #1D1D1D);
+    background-image: -ms-linear-gradient(90deg, #2d4ba4, #1D1D1D);
+    background-image: -o-linear-gradient(90deg, #2d4ba4, #1D1D1D);
+    background-image: -webkit-linear-gradient(90deg, #2d4ba4, #1D1D1D);
+    background-image: linear-gradient(90deg, #2d4ba4, #1D1D1D);
+    border-radius: 15px;
+    border: 2px solid #4a5032;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 1em;
+    margin-right: 0.25em;
+    padding: 7px;
+    text-decoration: none;
+    text-shadow: #000000 5px 5px 15px;
+    transition: all 0.5s ease;
+}
+.my-navbar a:hover {
+    -moz-transform: scale(1.1);
+     -ms-transform: scale(1.1);
+     -o-transform: scale(1.1);
+     -webkit-transform: scale(1.1);
+     padding: 7px;
+     transform: scale(1.1);
+}
+.my-navbar a:active {
+	position:relative;
+	top:1px;
+}
+
+.rm-navbar {
+    display: flex;
+    justify-content: center;
+}
+
+.rm-navbar ul {
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+
+.outer-wrap-main {
+    background-image: linear-gradient(#1D1D1D, #2d4ba4, #1D1D1D);
+}
+
+
+@desktopnavbarbackground: #111111;
+@desktopnavbartext: #F8F8FF;
+@desktopnavbarsubmenu: #111111;
+
+@footerbackground: #111111;
+@footertextcolor: #F8F8FF;
+
+.outer-wrap-footer {
+    background-color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #F8F8FF;
+}
+
+.site-logo-text a {
+    font-size: 3em;
+    color: #EE7023;
+}
+
+.region-flash {
+    display: none;
+}
+
+//@fontFamilyBody:     "serif"; //"sans-serif";
+
+
+// Magic number and base fontsize
+@magicNumber:  22px;  // 22px
+@fontSizeBody: 16px;
+
+@fontFamilyHeadings: "serif";
+@fontFamilyBody: 'Roboto', sans-serif;
+
+code {
+    background-color: #111111;
+}

@@ -9,19 +9,18 @@ views:
             meta:
                 type: single
                 route: block/byline
-    testblock:
-        region: sidebar-right
-        template: anax/v2/block/default
-        data:
-            meta:
-                type: single
-                route: block/testblock
 ---
 Min me-sida i kursen design
 =========================
 
-
-[FIGURE src="image/skaggjohan.jpg" style="width: 33%" class="right"]  
+<figure class="figure">
+    <a href="image/skaggjohan.jpg?w=500">
+        <img src="image/skaggjohan.jpg?w=100%&area=31,33,56,0" alt="Johan" />
+    </a>
+    <figcaption style="font-size: 11px; text-align: right">
+        <p>Storebror ser dig.</p>
+    </figcaption>
+</figure>  
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Jag underhåller denna sidan under hela kursen och uppdaterar den efter hand.
 

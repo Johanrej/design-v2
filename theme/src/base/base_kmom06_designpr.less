@@ -1,0 +1,42 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #424242;
+@bgColorBody: #fff;
+@colorBody: #333;
+//@fontFamilyBody: serif;
+@fontFamilyBody: 'Roboto', sans-serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+* {
+    font-family: @fontFamilyBody;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    //font: 100.01%/1 @fontFamilyBody;
+    #desinax-hgrid.font(@fontSizeBody);
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        color: #33f;
+        text-decoration: underline;
+    }
+}
+
+// Adapt the typographic grid to personal style
+#desinax-hgrid.activateDefaultTypography();
