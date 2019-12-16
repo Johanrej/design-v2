@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom03.
+ * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS.
+ * This stylesheet is for the design course and kmom04 where we use LESS.
  */
 /**
   * Import mixins.
@@ -5018,311 +5018,19 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
-  background-color: #F8F6F0;
-}
-* {
-  font-family: 'Roboto', sans-serif;
+  background-color: white;
 }
 body {
   margin: 0;
   padding: 0;
-  color: #333;
-  background-color: #F3F3F3;
-  font: 16px/1.375 'Roboto', sans-serif;
+  color: none;
+  background-color: none;
+  font: 100.01%/1 'Lakki Reddy', cursive;
+  background-image: url("../img/parchment.jpg");
 }
 img {
   max-width: 100%;
-}
-a {
-  text-decoration: none;
-}
-a:hover {
-  color: #33f;
-  text-decoration: underline;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "serif";
-  margin-top: 22px;
-  margin-bottom: 22px;
-}
-h1 img,
-h2 img,
-h3 img,
-h4 img,
-h5 img,
-h6 img {
-  margin: 0;
-}
-h1 {
-  font-size: 2.375em;
-  line-height: 1.15789474;
-  font-weight: normal;
-  border-bottom: 1px solid #666;
-  margin-bottom: 21px;
-}
-h1 ~ h1,
-h1 ~ h2,
-h1 ~ h3,
-h1 ~ h4,
-h1 ~ h5,
-h1 ~ h6 {
-  margin-top: 44px;
-}
-h1 + h2 {
-  margin-top: 22px;
-}
-h2 {
-  font-size: 1.875em;
-  line-height: 1.46666667;
-  font-weight: normal;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #CCC;
-}
-h2 + h3 {
-  margin-top: 22px;
-}
-h3 {
-  font-size: 1.75em;
-  line-height: 1.57142857;
-  font-weight: normal;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
-}
-h3 + h4 {
-  margin-top: 22px;
-}
-h4 {
-  font-size: 1.5em;
-  line-height: 1.83333333;
-  font-weight: normal;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
-}
-h4 + h5 {
-  margin-top: 22px;
-}
-h5 {
-  font-size: 1.25em;
-  line-height: 1.1;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
-}
-h5 + h6 {
-  margin-top: 22px;
-}
-h6 {
-  font-size: 1.25em;
-  line-height: 1.1;
-  margin-bottom: 21px;
-  border-bottom: 1px solid #EEE;
-}
-p {
-  margin-bottom: 22px;
-}
-small,
-.small,
-.smaller {
-  font-size: 0.875em;
-}
-strong,
-b {
-  font-weight: bold;
-}
-mark {
-  color: #000;
-  background-color: #ff9;
-}
-abbr[title],
-dfn[title] {
-  text-decoration: dotted underline;
-}
-em,
-i,
-dfn {
-  font-style: italic;
-}
-sub,
-sup {
-  font-size: 0.75em;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-sup {
-  top: -0.5em;
-}
-sub {
-  bottom: -0.25em;
-}
-blockquote {
-  border-left: 4px solid #eee;
-  padding-left: 1em;
-  margin-left: 0;
-  margin-bottom: 22px;
-}
-pre,
-code,
-kbd,
-samp,
-.code {
-  font-family: "monospace";
-}
-code,
-samp {
-  border: 1px solid #ccc;
-  padding-left: 1px;
-  padding-right: 1px;
-}
-code {
-  background-color: #eee;
-}
-pre,
-div.code,
-pre code {
-  font-size: 1em;
-  line-height: 1.5;
-  white-space: pre;
-}
-pre {
-  margin-bottom: 22px;
-}
-pre code {
-  display: block;
-  overflow: auto;
-}
-div.code,
-pre code {
-  border-top: 1px solid #ccc;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-left: 0.5em;
-  background-color: #eee;
-}
-ul,
-ol {
-  margin-bottom: 22px;
-  padding-left: 1.5em;
-}
-ul p,
-ol p {
-  margin-top: 11px;
-  margin-bottom: 11px;
-}
-ul ul,
-ol ul,
-ul ol,
-ol ol {
-  margin: 0;
-}
-ul {
-  list-style-type: disc;
-}
-ol {
-  list-style-type: decimal;
-}
-dl {
-  margin-bottom: 22px;
-}
-dl.horizontal dt {
-  clear: left;
-  float: left;
-  width: 7em;
-}
-dl.horizontal dd {
-  margin-left: 8em;
-  display: block;
-}
-dd {
-  margin-left: 1.5em;
-}
-article table,
-.table,
-.table1,
-.table2 {
-  margin-bottom: 22px;
-}
-table.full-width,
-article .table,
-.table,
-.table2 {
-  width: 100%;
-}
-article table,
-.table,
-.table2 {
-  border-collapse: collapse;
-  /*
-            tfoot {
-            }
-            */
-}
-article table caption,
-.table caption,
-.table2 caption {
-  font-size: 0.875em;
-  line-height: 1.57142857;
-  text-align: left;
-  font-style: italic;
-}
-article table thead,
-.table thead,
-.table2 thead {
-  box-shadow: 0 1px 0 #aaa;
-}
-article table th,
-.table th,
-.table2 th {
-  vertical-align: bottom;
-  font-weight: bold;
-  text-align: left;
-}
-article table th,
-.table th,
-.table2 th,
-article table td,
-.table td,
-.table2 td {
-  padding: 5.5px;
-}
-article table tr,
-.table tr,
-.table2 tr {
-  box-shadow: 0 1px 0 #ccc;
-}
-article table tr:hover,
-.table tr:hover,
-.table2 tr:hover {
-  color: #000;
-  background-color: #f6f6f6;
-  box-shadow: 0 1px 0 #666;
-}
-table.striped tbody tr:nth-child(even) td,
-table.striped tbody tr.even td {
-  background-color: #fafafa;
-}
-hr {
-  position: relative;
-  top: -2px;
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 32px;
-  margin-bottom: 33px;
-}
-hr::after {
-  content: "§";
-  position: relative;
-  top: -0.7em;
-  left: 50%;
-  padding: 0 0.25em;
-  background-color: #fff;
+  border-radius: 50%;
 }
 /**
  * Import the vertical grid.
@@ -5435,17 +5143,17 @@ hr::after {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #00427A;
-  color: #fff;
+  background-color: none;
+  color: black;
   text-align: auto;
   font-size: 20px;
 }
 .rm-desktop li a {
   color: inherit;
-  background-color: #F3F3F3;
+  background-color: none;
 }
 .rm-desktop li a:hover {
-  background-color: #F3F3F3;
+  background-color: none;
 }
 .site-logo {
   display: none;
@@ -5503,7 +5211,7 @@ ul {
  * Main and sidebars layout
  */
 .inner-wrap-main {
-  background-color: #fff;
+  background-color: none;
 }
 .region-main {
   display: inline;
@@ -5550,8 +5258,8 @@ ul {
   margin-right: 0.52083333%;
 }
 .region-footer {
-  background-color: #F3F3F3;
-  color: #333;
+  background-color: none;
+  color: black;
   overflow: auto;
 }
 .footer-column {
@@ -5701,5 +5409,294 @@ ul {
   color: #111;
 }
 /**
+ * Figure and figcaption for images and other media using figure/figcaption
+ */
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+Enable style from the module and optinally add customized layout figure.figure {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 22px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+Enable style from the module and optinally add customized layout figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+Enable style from the module and optinally add customized layout figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 11px;
+}
+Enable style from the module and optinally add customized layout figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+Enable style from the module and optinally add customized layout figure.figure td img {
+  max-width: none;
+}
+Enable style from the module and optinally add customized layout figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+Enable style from the module and optinally add customized layout figure.figure.center figcaption {
+  text-align: center;
+}
+Enable style from the module and optinally add customized layout figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+Enable style from the module and optinally add customized layout figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  Enable style from the module and optinally add customized layout figure.figure.left.w67,
+  Enable style from the module and optinally add customized layout figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  Enable style from the module and optinally add customized layout figure.figure.left.w67 img,
+  Enable style from the module and optinally add customized layout figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  Enable style from the module and optinally add customized layout figure.figure.left.w50,
+  Enable style from the module and optinally add customized layout figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  Enable style from the module and optinally add customized layout figure.figure.left.w50 img,
+  Enable style from the module and optinally add customized layout figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  Enable style from the module and optinally add customized layout figure.figure.left.w40,
+  Enable style from the module and optinally add customized layout figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  Enable style from the module and optinally add customized layout figure.figure.left.w40 img,
+  Enable style from the module and optinally add customized layout figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  Enable style from the module and optinally add customized layout figure.figure.left.w33,
+  Enable style from the module and optinally add customized layout figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  Enable style from the module and optinally add customized layout figure.figure.left.w33 img,
+  Enable style from the module and optinally add customized layout figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  Enable style from the module and optinally add customized layout figure.figure.left.w25,
+  Enable style from the module and optinally add customized layout figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  Enable style from the module and optinally add customized layout figure.figure.left.w25 img,
+  Enable style from the module and optinally add customized layout figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 22px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 11px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 840px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 840px;
+  }
+}
+@media screen and (max-width: 640px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 640px;
+  }
+}
+@media screen and (max-width: 600px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 480px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 480px;
+  }
+}
+@media screen and (max-width: 320px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 320px;
+  }
+}
+/**
 * My own settings, not currently in their own module.
 */
+.inner-wrap-header {
+  background-image: url("../img/wood.jpg");
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
+.inner-wrap-main {
+  background-image: linear-gradient(#F2ECDA, #F4DC93);
+  min-height: 700px;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 1em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.outer-wrap-footer {
+  background-image: url("../img/wood.jpg");
+  border: 2px solid black;
+}
+.my-navbar li {
+  border: 2px solid black;
+  border-radius: 50%;
+  background-image: linear-gradient(#F2ECDA, #F4DC93);
+  min-width: 130px;
+  text-align: center;
+}
+.my-navbar li:hover {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.75);
+}
+.rm-navbar ul {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  border-bottom: 2px solid black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #699C17;
+}
+.site-logo-text a {
+  font-size: 3em;
+  color: #699C17;
+}
+.region-flash {
+  display: none;
+}
+code {
+  background-color: #fff;
+}

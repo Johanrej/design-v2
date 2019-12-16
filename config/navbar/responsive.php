@@ -95,6 +95,16 @@ return [
                         "url" => "rapport/laddningstid",
                         "title" => "Rapport för laddningstid.",
                     ],
+                    [
+                        "text" => "Design",
+                        "url" => "rapport/designprincip",
+                        "title" => "Analys av design.",
+                    ],
+                    [
+                        "text" => "Designelement",
+                        "url" => "rapport/designelement",
+                        "title" => "Prova designelement.",
+                    ],
                 ],
             ],
         ],

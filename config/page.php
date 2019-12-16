@@ -22,7 +22,8 @@ return [
                 //"css/dbwebb-se.min.css",
                 "https://fonts.googleapis.com/css?family=Roboto&display=swap",
                 "https://fonts.googleapis.com/css?family=Indie+Flower&display=swap",
-                "css/kmom05.css",
+                "https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap",
+                "css/kmom06.css",
             ],
             "javascripts" => [
                 "js/responsive-menu.js",

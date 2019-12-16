@@ -21,7 +21,7 @@ Min me-sida i kursen design
 =========================
 
 
-[FIGURE src="image/skaggjohan.jpg" class="right"]
+[FIGURE src="image/skaggjohan.jpg" style="width: 33%" class="right"]  
 
 Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Jag underhåller denna sidan under hela kursen och uppdaterar den efter hand.
 

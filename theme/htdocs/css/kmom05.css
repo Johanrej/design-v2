@@ -5454,8 +5454,8 @@ hr::after {
   font-size: 2em;
   text-decoration: none;
 }
-.figure.right img {
-  float: right;
+.figure.left img {
+  float: left;
   width: 40%;
   padding-left: 2em;
 }
@@ -5930,23 +5930,6 @@ figure.figure.right {
   figure.figure.right.w25 img {
     width: 320px;
   }
-}
-@media screen and (max-width: 640px) {
-  figure.figure.left.w50,
-  figure.figure.right.w50 {
-    margin-left: 0;
-    margin-right: 0;
-    float: none;
-  }
-  figure.figure.left.w50 img,
-  figure.figure.right.w50 img {
-    width: 640px;
-  }
-}
-.figure.own img {
-  float: right;
-  width: 40%;
-  padding-left: 2em;
 }
 /**
 * My own settings, not currently in their own module.
