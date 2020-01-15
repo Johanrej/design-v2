@@ -109,6 +109,16 @@ return [
                         "url" => "rapport/designprinciper",
                         "title" => "Designprinciper",
                     ],
+                    [
+                        "text" => "Webbplatsdesign",
+                        "url" => "rapport/webbplatsdesign",
+                        "title" => "Webbplatsdesign",
+                    ],
+                    [
+                        "text" => "Färganalys",
+                        "url" => "rapport/design-och-webbplatser",
+                        "title" => "Färganalys",
+                    ],
                 ],
             ],
         ],
